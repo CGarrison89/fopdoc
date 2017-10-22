@@ -7,20 +7,20 @@ Ammunition
 
 Count | Subrecord | Name | Type | Info
 ------|-------|------|------|-----
-+ | EDID | Editor ID | cstring |
-+ | [OBND](Subrecords/OBND.md) | Object Bounds | struct |
-+ | FULL | Name | cstring |
- | | [Model Data](Subrecords/Model.md) | collection |
- | ICON | Large Icon Filename | cstring |
- | MICO | Small Icon FIlename | cstring |
- | SCRI | Script | formid | FormID of a [SCPT](SCPT.md) record.
- | | [Destruction Data](Subrecords/Destruction.md) | collection |
- | YNAM | Sound - Pick Up | formid | FormID of a [SOUN](SOUN.md) record.
- | ZNAM | Sound - Drop | formid | FormID of a [SOUN](SOUN.md) record.
-+ | [DATA](#data) | Data | struct |
- | DAT2 | Data 2 | struct |
- | ONAM | Short Name | cstring |
- | QNAM | Abbreviation | cstring |
+\+ | EDID | Editor ID | cstring |
+\+ | [OBND](Subrecords/OBND.md) | Object Bounds | struct |
+\+ | FULL | Name | cstring |
+| | | [Model Data](Subrecords/Model.md) | collection |
+| | ICON | Large Icon Filename | cstring |
+| | MICO | Small Icon FIlename | cstring |
+| | SCRI | Script | formid | FormID of a [SCPT](SCPT.md) record.
+| | | [Destruction Data](Subrecords/Destruction.md) | collection |
+| | YNAM | Sound - Pick Up | formid | FormID of a [SOUN](SOUN.md) record.
+| | ZNAM | Sound - Drop | formid | FormID of a [SOUN](SOUN.md) record.
+\+ | [DATA](#data) | Data | struct |
+| | DAT2 | Data 2 | struct |
+| | ONAM | Short Name | cstring |
+| | QNAM | Abbreviation | cstring |
 -* | RCIL | Ammo Effect | formid | FormID of an [AMEF](AMEF.md) record.
 
 ### DATA
