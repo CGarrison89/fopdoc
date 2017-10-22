@@ -43,6 +43,6 @@ These symbols are used to denote whether a record subrecord is required or not, 
 
 Symbol | Meaning
 -------|--------
-+ | Required. Such subrecords are always present in official plugins and plugins made with the GECK.
-- | Optional. Such subrecords are not always present in official plugins and plugins made with the GECK.
-* | Can appear more than once (stacks with `+` and `-`).
+\+ | Required. Such subrecords are always present in official plugins and plugins made with the GECK.
+\- | Optional. Such subrecords are not always present in official plugins and plugins made with the GECK.
+\* | Can appear more than once (stacks with `+` and `-`).
