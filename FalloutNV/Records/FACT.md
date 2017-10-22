@@ -7,13 +7,13 @@ Faction
 
 Count | Subrecord | Name | Type | Info
 ------|-------|------|------|-----
-+ | EDID | Editor ID | cstring |
- | FULL | Name | cstring |
+\+ | EDID | Editor ID | cstring |
+ || FULL | Name | cstring |
 -* | [XNAM](Subrecords/XNAM (FACT, RACE).md) | Relation | struct |
- | DATA | Data | struct |
- | CNAM | Unused | float32 |
+ || DATA | Data | struct |
+ || CNAM | Unused | float32 |
 -* | | Rank | collection | See below for details.
- | WMI1 | Reputation | formid | FormID of a [REPU](REPU.md) record.
+ || WMI1 | Reputation | formid | FormID of a [REPU](REPU.md) record.
 
 ### DATA
 
